@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: DeamonSet
+kind: Deployment
 metadata:
   name: nginx-daemonset
   namespace: nginx    
@@ -17,5 +17,12 @@ spec:
         image: nginx:latest
         ports:
         - containerPort: 80
+        volumeMounts:
+          - mountPath: /usr/share/nginx/html
+            name: my-volume
+      volumes:
+        - name: my-volume
+          persistentVolumeClaim:
+            claimName: local-pvc
   
   
