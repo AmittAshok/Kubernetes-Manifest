@@ -1,0 +1,16 @@
+kind: Job 
+apiVersion: batch/v1
+metadata:
+  name: demo-job
+  namspaces: nginx
+spec:
+  completions: 1
+  parallelism : 1 
+  ttlSecondsAfterFinished: 100
+  template:
+    spec:
+      containers:
+      - name: container-batch
+        image: busybox:latest
+        command: ["sh", "-c", "echo Hello, BhaiLog && sleep 10"]
+      restartPolicy: Never
