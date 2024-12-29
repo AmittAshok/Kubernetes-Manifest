@@ -1,8 +1,0 @@
-kubectl get nodes   # to check created nodes
-kubectl get nodes --context kind-tws-cluster   # to check node in particular cluster like minikube and kind
-kubectl config use-context kind-tws-cluster # set default context for search
-In kubedam worker node are connected default port on 6443
-watch kubectl get nodes # to watch dyanmically creation 
-kubectl run nginx --image=nginx:latest # to create single pod of nginx server
-kubectl get namespaces or ns # check all namspaces
-kubectl get pods # check created pods
