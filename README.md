@@ -1,6 +1,6 @@
 # Kubernetes-Manifest
 
-![Kubernetes Logo](https://kubernetes.io/images/kubernetes-logo.png)
+![Kubernetes Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fusing-kubectl-logs-how-view-kubernetes-pod-abhishek-rana&psig=AOvVaw0Whts7r0M14F9DfDfzRcE6&ust=1735743313247000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjGqfCh0ooDFQAAAAAdAAAAABAE)
 
 This repository is used to learn about Kubernetes and how exactly manifest files are used in clusters.
 
