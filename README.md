@@ -29,8 +29,8 @@ You can refer to the official Kubernetes documentation for a deeper understandin
 Example: Nginx Deployment
 The Nginx folder contains an example of deploying an Nginx application using Kubernetes manifests. This includes resources like Deployment, Service, Ingress, and others that are commonly used in a Kubernetes environment.
 You can explore the example files here:
-- [nginx-deployment.yaml](nginx/nginx-deployment.yaml)
-- [nginx-service.yaml](nginx/nginx-service.yaml)
+- [nginx-deployment.yaml](Nginx/deployment.yaml)
+- [nginx-service.yaml](nginx/service.yaml)
 
 How to Use
 Clone the repository to your local machine.
