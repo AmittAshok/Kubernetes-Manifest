@@ -1,5 +1,7 @@
 # Kubernetes-Manifest
 
+![Kubernetes Logo](https://kubernetes.io/images/kubernetes-logo.png)
+
 This repository is used to learn about Kubernetes and how exactly manifest files are used in clusters.
 
 ## Table of Contents
@@ -13,18 +15,22 @@ This repository is used to learn about Kubernetes and how exactly manifest files
 
 ## Project Overview
 
-Kubernetes Manifest Files
+## Kubernetes Manifest Files
 This repository contains Kubernetes manifest files for various resources and their usage in real-world scenarios. As an example, the Nginx folder demonstrates how to create and deploy an Nginx application using Kubernetes.
 
-Kubernetes Manifests
+## Kubernetes Manifests
 Kubernetes manifest files are written in YAML format, which is easy to understand and maintain. These manifests define the resources and configurations needed to deploy and manage applications on a Kubernetes cluster.
 
 You can refer to the official Kubernetes documentation for a deeper understanding of how these resources work and to explore more advanced configurations.
 
-Kubernetes Documentation
+[Kubernetes Documentation](https://kubernetes.io/docs/)
+
 
 Example: Nginx Deployment
 The Nginx folder contains an example of deploying an Nginx application using Kubernetes manifests. This includes resources like Deployment, Service, Ingress, and others that are commonly used in a Kubernetes environment.
+You can explore the example files here:
+- [nginx-deployment.yaml](nginx/nginx-deployment.yaml)
+- [nginx-service.yaml](nginx/nginx-service.yaml)
 
 How to Use
 Clone the repository to your local machine.
@@ -33,7 +39,10 @@ Navigate to the specific folder for the resource you want to explore, such as th
 
 Apply the manifest files using kubectl:
 
-kubectl apply -f <file-name>.yaml
+```bash
+# Example installation command
+kubectl apply -f nginx-deployment.yaml
+
 Monitor the resources using:
 
 kubectl get all
