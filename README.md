@@ -97,6 +97,6 @@ This will remove the my-cluster from your system.
 # Read_More
 You can visit some of my article for understaing purpose.
 
-- [Basic Kubernetes](Kubernetes_series.pdf)
+- [Basic Kubernetes](Kubernetes_Series.pdf)
 - [Kubernetes workload](Kubernetes-workload.pdf)
 - 
