@@ -42,9 +42,9 @@ Apply the manifest files using kubectl:
 ```bash
 # Example installation command
 kubectl apply -f nginx-deployment.yaml
-
+```
 Monitor the resources using:
-
+```bash
 kubectl get all
 ```
 
@@ -77,7 +77,7 @@ After the cluster is created, you can verify that the Kubernetes cluster is up a
 ```bash
 kubectl get nodes
 ```
-step 4 :Create a Multi-Node Cluster (Optional)
+Step 4 :Create a Multi-Node Cluster (Optional)
 By default, kind creates a single-node cluster. If you want to create a multi-node cluster (e.g., with control plane and worker nodes), you can do so by providing a custom configuration file.
 
 Create a kind-config.yaml file with the following content:
