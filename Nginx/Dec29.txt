@@ -1,0 +1,1880 @@
+    1  ls
+    2  sudo apt install fonts-powerline\ngit clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k\n
+    3  ZSH_THEME="powerlevel10k/powerlevel10k"\n
+    4  # Install zsh-autosuggestions\ngit clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions\n\n# Install zsh-syntax-highlighting\ngit clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting\n
+    5  ls
+    6  l
+    7  ls
+    8  cd Documents
+    9  ls
+   10  cd ..
+   11  ls
+   12  echo $PATH
+   13  echo $SHELL
+   14  echo $HOME
+   15  uptime
+   16  echo $LANG
+   17  ls
+   18  cd Perfect_Working_Project
+   19  ls
+   20  cd django-notes-app
+   21  ls
+   22  docker-compose up -d 
+   23  docker ps
+   24  docker restart
+   25  docker restart --name amittashok/notes-app-v1:latest
+   26  docker stop amittashok/notes-app-v1:latest
+   27  docker ps
+   28  docker-compose down
+   29  ls
+   30  vim Docker
+   31  less Dockerfile
+   32  less docker-compose.yml
+   33  more Procfile
+   34  cd ..
+   35  ls
+   36  cd Slam-book
+   37  ls
+   38  less docker-compose.yml
+   39  docker-compose up -d
+   40  docker ps -q -f
+   41  docker ps --help
+   42  docker ps -q -f table
+   43  docker ps -q -f table:
+   44  docker ps 
+   45  docker stop 4dde4a1f17e3
+   46  docker ps 
+   47  docker ps -a
+   48  docker ps 
+   49  docker ps -a
+   50  docker ps 
+   51  df
+   52  du
+   53  df -h
+   54  free -h
+   55  du -h
+   56  docker ps
+   57  docker ps | awk {print $2}
+   58  docker ps | awk/ {print $2}/
+   59  docker ps | awk {print $2}
+   60  docker ps
+   61  docker ps -a
+   62  ls
+   63  cd scripting/
+   64  bash docker-container-health.sh
+   65  docker ps 
+   66  docker ps -a
+   67  docker run -d -p 3607:3607 mysql:latest
+   68  docker ps
+   69  docker ps -a
+   70  docker history 65cab6151ba9
+   71  docker logs 65cab6151ba9
+   72  docker run -d -p 3607:3607 -e MYSQL_USER=admin -e MYSQL_ROOT_PASSWORD=root mysql:latest
+   73  docker ps
+   74  docker exec 973d9f863d8d bash MYSQL_ROOT_PASSWORD=root
+   75  docker exec 973d9f863d8d MYSQL_ROOT_PASSWORD=root bash
+   76  docker ps
+   77  docker exec 973d9f863d8d -e MYSQL_ROOT_PASSWORD=root bash
+   78  docker exec -it 973d9f863d8d -e MYSQL_ROOT_PASSWORD=root bash
+   79  docker exec -it 973d9f863d8d bash
+   80  bash docker-container-health.sh
+   81  ls
+   82  mkdir Backups
+   83  tar -cvf backup demo.txt
+   84  tar -cvf demo.txt backups.tar.gz
+   85  $!
+   86  $#
+   87  @?
+   88  $?
+   89  tar -zvf backups.tar.gz demo.txt
+   90  tar --help
+   91  cd Desktop/python-for-devops/
+   92  ls
+   93  rm -rf scripting
+   94  ls
+   95  rm ec2instance-boto3.py
+   96  ls
+   97  mkdir scripting
+   98  cd ..
+   99  ls
+  100  rm -rf python-for-devops
+  101  cd ..
+  102  ls
+  103  rm -rf python-for-devops python_DevOps
+  104  cd backup
+  105  ls
+  106  cd ..
+  107  ls
+  108  rm -rf backup Backups
+  109  rm -rf github_with_python
+  110  cd go
+  111  ls
+  112  cd ..
+  113  rm -rf go
+  114  ls
+  115  cd k8s
+  116  ls
+  117  cd ..
+  118  rm -rf k8s
+  119  rm -rf docker-Practice docker-projects
+  120  ls
+  121  cd python-masterclass
+  122  ls
+  123  cd advanced
+  124  ls
+  125  cd ..
+  126  rm -rf python-masterclass
+  127  ls
+  128  cd projects
+  129  ls
+  130  cd ..
+  131  rm -rd projects
+  132  ls
+  133  rm -rf slam
+  134  mkdir shell_script
+  135  ls
+  136  bash variable.sh
+  137  vim log.txt
+  138  pwd
+  139  bash variable.sh
+  140  ls
+  141  cd shell_script
+  142  ls
+  143  bash variable.sh
+  144  grep INFO -o -w log.txt
+  145  grep INFO -o -wc log.txt
+  146  grep INFO -o -c log.txt
+  147  grep INFO -o -wc log.txt
+  148  cat log.txt
+  149  less log.txt
+  150  pwd
+  151  ls
+  152  bash variable.sh
+  153  du -csh
+  154  bash variable.sh
+  155  ls
+  156  cd Python-Scripts
+  157  ls
+  158  python3 demo.py
+  159  ls
+  160  rm -rf Demo
+  161  python3 demo.py
+  162  ls
+  163  rm -rf Demo
+  164  python3 demo.py
+  165  ls
+  166  rm -rf Demo
+  167  python3 demo.py
+  168  ls
+  169  python3 demo.py
+  170  ls
+  171  rm -rf Demo raja
+  172  python3 demo.py
+  173  ls
+  174  rm -rf raja
+  175  python3 demo.py
+  176  ls
+  177  python3 demo.py
+  178  ls
+  179  python3 demo.py
+  180  cd ../../
+  181  ls
+  182  cd amitt-ashok
+  183  ls
+  184  python3 demo.py
+  185  ls
+  186  python3 demo.py
+  187  ls
+  188  rm -rf new
+  189  ls
+  190  python3 demo.py
+  191  ls
+  192  python3 demo.py
+  193  cd 
+  194  ls
+  195  vim list-dir.py
+  196  python3 list-dir.py
+  197  vim list-dir.py
+  198  python3 list-dir.py
+  199  less
+  200  less list-dir.py
+  201  python3 demo.py
+  202  pwd
+  203  cd Desktop
+  204  ls
+  205  cd ..
+  206  ls
+  207  cd Dow
+  208  cd Downloads
+  209  pwd
+  210  python3 demo.py
+  211  ls
+  212  cd raja/rani
+  213  ls
+  214  cd ../../
+  215  ls
+  216  rm -rf raja
+  217  ls
+  218  python3 demo.py
+  219  ls
+  220  python3 demo.py
+  221  ls
+  222  echo $PATH\n
+  223  python3 demo.py
+  224  env
+  225  ls
+  226  cd ..
+  227  ls
+  228  pwd
+  229  cd Python-Scripts
+  230  ls
+  231  python3 demo.py
+  232  ls
+  233  cd shell_script
+  234  ls
+  235  ls -ltr
+  236  python3 demo.py
+  237  ls
+  238  ls -ltr
+  239  ls
+  240  git init
+  241  git branch
+  242  git status
+  243  git remote add origin git@github.com:AmittAshok/Scripting_DevOps.git
+  244  git add .
+  245  git commit -m "Files added"
+  246  git push origin master
+  247  ls
+  248  cd Python-Scripts
+  249  ls
+  250  python3 demo.py
+  251  ls
+  252  /bin/python3.12
+  253  ls
+  254  python3 demo.py
+  255  /bin/python3.12
+  256  python3 demo.py
+  257  ls
+  258  python3 edit.py
+  259  python3 demo.py
+  260  python3 edit.py
+  261  ls
+  262  python3 edit.py
+  263  python3 demo.py
+  264  python3 edit.py
+  265  ls
+  266  python3 shutil_lib.py
+  267  ls
+  268  python3 shutil_lib.py
+  269  ls
+  270  python3 shutil_lib.py
+  271  ls
+  272  python3 shutil_lib.py
+  273  pwd
+  274  python3 shutil_lib.py
+  275  cd Desktop
+  276  ls
+  277  vim test.txt
+  278  python3 shutil_lib.py
+  279  cat test.txt
+  280  ls
+  281  python3 shutil_lib.py
+  282  cat test.txt
+  283  pwd
+  284  ls
+  285  cd Python-Scripts
+  286  python3 shutil_lib.py
+  287  cd ..
+  288  ls
+  289  mkdir Test
+  290  python3 shutil_lib.py
+  291  rm -rf Test
+  292  python3 shutil_lib.py
+  293  ls
+  294  cd Te
+  295  cd Test
+  296  ls
+  297  cd ..
+  298  rm -rf Test
+  299  ls
+  300  rm demo.txt
+  301  python3 shutil_lib.py
+  302  ls
+  303  cd Desktop
+  304  ls
+  305  rm test.txt
+  306  python3 shutil_lib.py
+  307  ls
+  308  python3 shutil_lib.py
+  309  cat test.txt
+  310  /bin/python3.12
+  311  python3 shutil_lib.py
+  312  cd ../../
+  313  cd ..
+  314  ls
+  315  cd Desktop
+  316  ls
+  317  cd shell_script
+  318  ls
+  319  cd ..
+  320  ls
+  321  mv shell_script /home/amitt-ashok
+  322  cd ..
+  323  ls
+  324  cd shell_script
+  325  ls
+  326  cd Python-Scripts
+  327  ls
+  328  cd abhishek-veeramalla
+  329  ls
+  330  cd ..
+  331  ls
+  332  mkdir test
+  333  ls
+  334  python3 shutil_lib.py
+  335  ls
+  336  pwd
+  337  python3 shutil_lib.py
+  338  ls
+  339  python3 shutil_lib.py
+  340  ls
+  341  python3 psutil.py
+  342  python3 psutil_operations.py
+  343  free -h
+  344  sudo swapoff -a\n
+  345  free -h
+  346  python3 psutil_operations.py
+  347  ls
+  348  python3 subprocess_operations.py
+  349  python3 boto3_operation.py
+  350  python3 docker_actions.py
+  351  docker ps
+  352  python3 docker_actions.py
+  353  docker ps
+  354  docker ps -a
+  355  docker logs 76f30db48862
+  356  python3 docker_actions.py
+  357  docker ps
+  358  docker restart 65cab6151ba9
+  359  python3 docker_actions.py
+  360  docker ps
+  361  ls
+  362  cd Mission
+  363  s
+  364  ls
+  365  cd ..
+  366  ls
+  367  cd Slam-book
+  368  ls
+  369  docker-compose up -d
+  370  docker ps
+  371  docker-compose down
+  372  ls
+  373  python3 datetime_actions.py
+  374  ls
+  375  cd ..
+  376  ls
+  377  touch test.txt
+  378  python3 backup_folder.py
+  379  cd Desktop
+  380  ls
+  381  rm -rf test.txt
+  382  python3 backup_folder.py
+  383  ls
+  384  python3 backup_folder.py
+  385  ls
+  386  python3 backup_folder.py
+  387  ls
+  388  rm -rf Backups
+  389  python3 backup_folder.py
+  390  ls
+  391  cd Backups
+  392  ls
+  393  ls -ltr
+  394  vim backup1_07-12-2024\ 21:28:18
+  395  cd ..
+  396  ls
+  397  cd ..
+  398  vim test.txt
+  399  cd ..
+  400  ls
+  401  cd amitt-ashok
+  402  cd Des
+  403  cd Desktop
+  404  python3 backup_folder.py
+  405  cd Backups
+  406  ls
+  407  cat backup1_07-12-2024\ 21:28:18
+  408  python3 backup_folder.py
+  409  ls
+  410  python3 backup_folder.py
+  411  cd ..
+  412  ls
+  413  cd Backups
+  414  tar -cvf *
+  415  tar -cvf file.tar .*
+  416  tar -cvf file.tar .
+  417  ls
+  418  tar -xvf file.tar
+  419  ls
+  420  docker ps
+  421  docker ps -a
+  422  docker inspect 65cab6151ba9
+  423  docker inspect --format '{{.State.ExitCode}}' <container_id>\n
+  424  ls
+  425  python3 demo.py
+  426  ls
+  427  python3 demo.py
+  428  ls
+  429  aws s3 ls s3://bucketfrom-newa-ccount --profile target-account-profile\n
+  430  aws configure --profile target-account-profile\n
+  431  aws s3 ls s3://bucketfrom-newa-ccount --profile target-account-profile\n
+  432  aws s3 cp s3://bucketfrom-newa-ccount ./local-path --profile target-account-profile\n
+  433  ls
+  434  ls -ltr
+  435  cd ./local-path
+  436  ls
+  437  aws s3 cp s3://bucketfrom-newa-ccount . --profile target-account-profile\n
+  438  ls
+  439  aws sts assume-role --role-arn arn:aws:iam::160885261001:role/s3access::source-account-id:role/role-name --role-session-name session-name\n
+  440  ls
+  441  cd Downloads
+  442  ssh -i "from_useast1_key.pem" ubuntu@3.88.33.160
+  443  chmod 400 from_useast1_key.pem
+  444  ssh -i "from_useast1_key.pem" ubuntu@3.88.33.160
+  445  cd ..
+  446  ls
+  447  python3 list-dir.py
+  448  cat list-dir.py
+  449  ls
+  450  cd wanderlust
+  451  ls
+  452  cd ..
+  453  ls
+  454  cd Perfect_Working_Project
+  455  ls
+  456  cd Wanderlust-Mega-Project
+  457  ls
+  458  cd ..
+  459  rm -rf Wanderlust-Mega-Project
+  460  git clone git@github.com:AmittAshok/wanderlust-Project.git
+  461  ls
+  462  cd terraform
+  463  ls
+  464  cd ..
+  465  ls
+  466  rm -rf terraform
+  467  cd wanderlust-Project
+  468  ls
+  469  sudo systemctl status jenkins
+  470  sudo systemctl start jenkins
+  471  sudo systemctl status jenkins
+  472  ip addr
+  473  docker run -d -p 3306:3306 mysql:latest --name mysql-container
+  474  docker ps
+  475  docker ps -a
+  476  docker inspect 65cab6151ba9
+  477  ls
+  478  docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test123 mysql:latest --name mysql-container
+  479  docker ps
+  480  docker exec -it 3f79e6b60cfb -u root -p 
+  481  docker ps
+  482  docker ps -a
+  483  docker rmi 3f79e6b60cfb b310f2395350 65cab6151ba9
+  484  docker run -d -p 3306:3306 -e MYSQL_USER=amitt -e MYSQL_ROOT_PASSWORD=test123 mysql:latest --name mysql-container
+  485  docker ps
+  486  docker logs 8cafc7b00a02
+  487  docker run -d -p 3306:3306 -e MYSQL_USER=amitt -e MYSQL_ROOT_PASSWORD=test123 mysql:latest
+  488  docker ps
+  489  docker stat f815f1f9ca15
+  490  docker stats f815f1f9ca15
+  491  docker exec -it f815f1f9ca15 -u amitt -p test123 bash
+  492  docker exec -it f815f1f9ca15 bash
+  493  docker ps
+  494  sudo systemctl restart jenkins
+  495  docker run -itd --name SonarQube-Server -p 9000:9000 sonarqube:lts-community
+  496  docker ps
+  497  docker history 27471ad4fc9a
+  498  docker stats 27471ad4fc9a
+  499  docker logs 27471ad4fc9a
+  500  ls
+  501  cd Downloads
+  502  ls
+  503  rm ansible-manged.pem aws-key.pem eks-nodegroup-key.pem from-mumbai_ec2Key.pem from_useast1_key.pem
+  504  ls
+  505  sudo rm ansible-manged.pem aws-key.pem eks-nodegroup-key.pem from-mumbai_ec2Key.pem from_useast1_key.pem
+  506  sudo systemctl status jenkins
+  507  sudo systemctl start jenkins
+  508  trivy
+  509  wget https://github.com/aquasecurity/trivy/releases/latest/download/trivy_$\(uname -s)_$(uname -m).tar.gz\ntar zxvf trivy_$(uname -s)_$(uname -m).tar.gz\nsudo mv trivy /usr/local/bin/\n
+  510  wget https://github.com/aquasecurity/trivy/releases/latest/download/trivy_$\(uname -s)_$(uname -m).tar.gz\n
+  511  sudo apt install -y wget apt-transport-https gnupg lsb-release\nwget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -\necho "deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" | sudo tee -a /etc/apt/sources.list.d/trivy.list\nsudo apt update\nsudo apt install -y trivy\n
+  512  sudo snap remove trivy\n
+  513  docker run -itd --name SonarQube-Server -p 9000:9000 sonarqube:lts-community
+  514  cd 
+  515  ls
+  516  docker ps
+  517  docker run -itd --name SonarQube-Server -p 9000:9000 sonarqube:lts-community
+  518  docker ps
+  519  docker ps -a
+  520  docekr rm $(docker rm -a -q)
+  521  docker rm $(docker rm -a -q)
+  522  docker rm --help
+  523  docker rm -a
+  524  docker rm -f $(docker ps -aq)
+  525  docker run -itd --name SonarQube-Server -p 9000:9000 sonarqube:lts-community
+  526  docker ps
+  527  docker logs 6ee40acf0e0d
+  528  top
+  529  htop
+  530  cd /var/lib/jenkins
+  531  ls
+  532  cd
+  533  docker ps
+  534  docker logs 6ee40acf0e0d
+  535  sudo systemctl restart jenkins
+  536  sudo systemctl stop jenkins
+  537  sudo systemctl start jenkins
+  538  cd /var/lib/jenkins
+  539  ls
+  540  cd workspace
+  541  ls
+  542  cd
+  543  docker login 
+  544  docker ps
+  545  docker ps -a
+  546  docker images
+  547  docker push amittashok/wanderlust-frontend-beta:1
+  548  cd /var/lib/jenkins
+  549  ls
+  550  cd
+  551  sudo susyemctl stop jenkins
+  552  docker ps 
+  553  docker images
+  554  dokcer history sonarqube
+  555  docker history sonarqube
+  556  docker history sonarqube:lts-community
+  557  docker stats sonarqube:lts-community
+  558  docker ps -a
+  559  ls
+  560  cd Python-Scripts
+  561  python3 os_lib.py
+  562  sudo systemctl start jenkins
+  563  sudo systemctl status jenkins
+  564  ip
+  565  ip addr
+  566  docker ps
+  567  ls
+  568  mkdir terraform-module
+  569  cd terraform-module
+  570  ls
+  571  cd Python-Scripts
+  572  python2 problem1.py
+  573  python3 problem1.py
+  574  sudo systemctl status nginx
+  575  sudo systemctl stop nginx
+  576  python3 problem1.py
+  577  sudo rm -rf /tmp/*
+  578  python3 problem1.py
+  579  cd
+  580  ls
+  581  vim log_file.txt
+  582  ls -ltr log_file.txt
+  583  du -h
+  584  du -h log_file.txt
+  585  pwd
+  586  ls
+  587  mkdir logfile
+  588  mv log_file.txt ./logfile
+  589  ls
+  590  cd logfile
+  591  ls
+  592  pwd
+  593  /bin/python3.12
+  594  ls
+  595  cd Python-Scripts
+  596  ls
+  597  python3 problem2.py
+  598  cd 
+  599  cd Desktop
+  600  ls
+  601  cd Backup
+  602  ls
+  603  cd
+  604  python3 problem2.py
+  605  cd Desktop/Backup
+  606  ls
+  607  cd Python-Scripts
+  608  python3 problem2.py
+  609  cd ~
+  610  ls
+  611  cd ..
+  612  cd ../../
+  613  ls
+  614  cd var
+  615  ls
+  616  cd log
+  617  ls
+  618  du -h
+  619  python3 problem2.py
+  620  cd ~
+  621  cd Desktop
+  622  ls
+  623  cd Backup
+  624  ls
+  625  cd
+  626  ls
+  627  cd Pictures
+  628  ls
+  629  cd ..
+  630  cd Slam-book
+  631  ls
+  632  vim docker
+  633  rm docker
+  634  less docker-compose.yml
+  635  more docker-compose.yml
+  636  vim .env
+  637  vim docker-compose.yml
+  638  docker-compose up -d
+  639  docker ps 
+  640  docker exec -it 314c0bf75ae5 /bin/bash
+  641  ls
+  642  more message.sql
+  643  ls
+  644  vim docker-compose.yml
+  645  more message.sql
+  646  vim message.sql
+  647  docker-compose down
+  648  docker-compose up -d
+  649  docker ps
+  650  docker exec -it bd64598cd113 /bin/bash
+  651  cd /var/lib
+  652  ls
+  653  cd
+  654  ls
+  655  cd Slam-book
+  656  ls
+  657  vim .env
+  658  docker ps
+  659  docker logs 09cfc40885a8
+  660  docker ps
+  661  docker logs bd64598cd113
+  662  docker ps
+  663  docker exec -it 09cfc40885a8 ping mysql\n
+  664  docker exec -it bd64598cd113 /bin/bash
+  665  docker network ;s
+  666  docker network ls
+  667  vim docker-compose.yml
+  668  cd /var/lib
+  669  ls
+  670  cat docker-compose.yml
+  671  rm -rf docker-compose.yml
+  672  vim docker-compose.yml
+  673  docker ps
+  674  docker-compose down
+  675  docker-compose up -d
+  676  ls
+  677  docker ps
+  678  docker ps -a
+  679  docker inspect 37660f88f255
+  680  docker ps
+  681  docker ps -a
+  682  vim docker-compose.yml
+  683  docker-compose up -d
+  684  docker ps
+  685  docker ps -a
+  686  ls
+  687  cd templates
+  688  ls
+  689  more index.html
+  690  vim index.html
+  691  rm index.html
+  692  vim index.html
+  693  ls
+  694  cd..
+  695  ls
+  696  cd ..
+  697  ls
+  698  vim Docker
+  699  cat Dockerfile
+  700  rm docker
+  701  ls
+  702  rm Docker
+  703  ls
+  704  vim message.sql
+  705  cd
+  706  cd Slam-book
+  707  ls
+  708  vim message.sql
+  709  more message.sql
+  710  vim message.sql
+  711  docker-compose up -d
+  712  more docker-compose.yml
+  713  vim docker-compose.yml
+  714  docker-compose up -d
+  715  vim docker-compose.yml
+  716  docker-compose up -d
+  717  vim docker-compose.yml
+  718  docker-compose up -d
+  719  vim docker-compose.yml
+  720  docker-compose up -d
+  721  vim docker-compose.yml
+  722  docker login\n
+  723  docker login
+  724  docker login -u amittashok
+  725  docker-compose up -d
+  726  vim docker-compose.yml
+  727  docker-compose up -d
+  728  vim docker-compose.yml
+  729  docker-compose up -d
+  730  docker-compose build --no-cache\n
+  731  vim docker-compose.yml
+  732  more docker-compose.yml
+  733  rm docker-compose.yml
+  734  vim docker-compose.yaml
+  735  docker-compose build --no-cache\n
+  736  docker-compose up -d\n
+  737  sudo systemctl restart docker
+  738  vim docker-compose.yaml
+  739  docker-compose up -d\n
+  740  vim docker-compose.yaml
+  741  docker-compose up -d\n
+  742  vim docker-compose.yaml
+  743  docker-compose up -d\n
+  744  docker-compose up --build
+  745  vim docker-c
+  746  vim docker-compose.yaml
+  747  docker-compose up --build
+  748  vim docker-compose.yaml
+  749  docker-compose up --build
+  750  vim docker-compose.yaml
+  751  docker images
+  752  docker rmi ${docker ps -aq}
+  753  docker rmi ${docker images -aq}
+  754  docker images ${docker rm -aq}
+  755  docker rmi mysql
+  756  docker rmi mysql/mysql-server
+  757  docker images
+  758  docker stop $(docker ps -aq)      # Stops all running containers\ndocker rm $(docker ps -aq)        # Removes all containers\n
+  759  cd ..
+  760  ls
+  761  vim remove_container.sh
+  762  chmod ux remove_container.sh
+  763  sudo chmod u+x remove_container.sh
+  764  ./remove_container.sh
+  765  cd Slam-book
+  766  ls
+  767  docker-compose up -d
+  768  docker ps
+  769  docker ps -a
+  770  dokcer inspect ef5fecc2e0bc
+  771  docker inspect ef5fecc2e0bc
+  772  docker ps -a
+  773  docker logs ef5fecc2e0bc
+  774  ls
+  775  vim docker-compose.yaml
+  776  vim Dockerfile
+  777  cd /etc/nginx
+  778  ls
+  779  cd conf.d
+  780  ls
+  781  cd ..
+  782  ls
+  783  sudo vim nginx.conf 
+  784  cd sites-enabled
+  785  ls
+  786  vim default
+  787  sudo cd /var/www/html
+  788  cd /var/www
+  789  ls
+  790  sudo vim html
+  791  ls
+  792  cd ..
+  793  ls
+  794  cd www
+  795  ls 
+  796  l -la
+  797  cd html
+  798  ls
+  799  ls -ltr
+  800  sudo vim index.nginx-debian.html
+  801  cd /etc/nginx
+  802  ls
+  803  nginx -t
+  804  sudo systemctl reload nginx
+  805  ip addr
+  806  sudo vim index.nginx-debian.html
+  807  sudo vim  /var/www/html/index.nginx-debian.html
+  808  cd
+  809  sudo vim /var/www/html/index.nginx-debian.html
+  810  sudo systemctl reload nginx
+  811  ls
+  812  cd sites-enabled
+  813  ls
+  814  vim default
+  815  sudo vim default
+  816  sudo systemctl reload nginx
+  817  ls
+  818  cd de
+  819  ls
+  820  cat default
+  821  sudo cd /var/www/html
+  822  ls
+  823  sudo vim /var/www/html/index.nginx-debian.html
+  824  cd /var/www
+  825  ls
+  826  cd html
+  827  ls
+  828  rm index.nginx-debian.html
+  829  sudo rm -rd index.nginx-debian.html
+  830  vim index.nginx-debian.html
+  831  ls
+  832  sudo vim index.nginx-debian.html
+  833  sudo systemctl reload nginx
+  834  cd /var/www
+  835  ls
+  836  cd html
+  837  ls
+  838  cat index.nginx-debian.html
+  839  cd /etc/nginx
+  840  ls
+  841  cd conf.d
+  842  ls
+  843  cd ..
+  844  cd sites-enabled
+  845  ls
+  846  cat default
+  847  cd
+  848  cd /etc/nginx
+  849  ls
+  850  cd
+  851  sudo apt install nginx -y
+  852  cd /etc/nginx
+  853  ls
+  854  sudo vim nginx.conf
+  855  cd sites-enabled
+  856  ls
+  857  tree
+  858  cd ..
+  859  ls
+  860  tree
+  861  cd sites-enabled
+  862  ls
+  863  tree
+  864  ls 
+  865  sudo vim default
+  866  cd
+  867  sudo systemctl stop nginx
+  868  ls
+  869  cd /etc/nginx
+  870  ls
+  871  cd
+  872  sudo apt remove nginx nginx-common -y\n
+  873  sudo apt purge nginx nginx-common -y\n
+  874  sudo apt autoremove -y\n
+  875  sudo rm -rf /etc/nginx\n
+  876  cd /etc
+  877  ls
+  878  nginx
+  879  sudo apt install nginx -y
+  880  ls
+  881  cd nginx
+  882  ls
+  883  cd sites-enabled
+  884  sudo vim default
+  885  cd ..
+  886  ls
+  887  sudo vim nginx.conf
+  888  ls
+  889  cd conf.d
+  890  ls
+  891  cd ..
+  892  sudo vim nginx.conf
+  893  sudo nginx -t
+  894  cd /var/www/html
+  895  ls
+  896  sudo vim index.nginx-debian.html
+  897  ip addr
+  898  sudo systemctl reload nginx
+  899  cd
+  900  cd /etc/nginx
+  901  ls
+  902  cd conf.d
+  903  ls
+  904  sudo mkdir portfolio.amittashok-techie.blog
+  905  mv portfolio.amittashok-techie.blog portfolio.conf
+  906  ls
+  907  rm -rf portfolio.amittashok-techie.blog
+  908  sudo rm -rf portfolio.amittashok-techie.blog
+  909  sudo mkdir portfolio.conf
+  910  ls
+  911  sudo rm -rf portfolio.conf
+  912  sudo vim portfolio.conf
+  913  sudo nginx -t
+  914  sudo systemctl reload nginx
+  915  cd /var/www/html
+  916  ls
+  917  cd /etc/nginx
+  918  ls
+  919  cd conf.d
+  920  ls
+  921  sudo mv portfolio.conf cafe.conf
+  922  ls
+  923  less cafe.conf
+  924  cd /var/www/html
+  925  ls
+  926  git clone https://github.com/codersgyan/Responsive-restaurant-website.git cafe
+  927  sudo git clone https://github.com/codersgyan/Responsive-restaurant-website.git cafe
+  928  ls
+  929  cd cafe
+  930  ls
+  931  sudo vim /etc/nginx/conf.d/cafe.conf
+  932  sudo nginx -t
+  933  sudo systemctl reload nginx
+  934  ls
+  935  cd ..
+  936  ls
+  937  cd cafe
+  938  ls
+  939  cd ..
+  940  ls
+  941  cd cafe
+  942  ls
+  943  cd ..
+  944  ls
+  945  sudo vim /etc/nginx/conf.d/cafe.conf
+  946  ls
+  947  pwd
+  948  ls
+  949  sudo vim /etc/nginx/conf.d/cafe.conf
+  950  sudo nginx -t
+  951  sudo sytemctl reload nginx
+  952  sudo systemctl reload nginx
+  953  ls
+  954  cd cafe
+  955  ls
+  956  git remote -v
+  957  ls
+  958  git remote -v
+  959  ls
+  960  ls -la
+  961  rm -rf .git
+  962  ls
+  963  sudo rm -rd .git
+  964  ls
+  965  ls -la
+  966  git init
+  967  sudo git init
+  968  sudo git add README.md
+  969  sudo git status
+  970  git add .
+  971  git config --global --add safe.directory /var/www/html/cafe\n
+  972  git add . 
+  973  sudo git add .
+  974  sudo git commit -m " all files added"
+  975  git config --global user.email "amittashok@gmail.com"\n
+  976  git config --global user.name "amittashok"\n
+  977  sudo git commit -m " all files added"
+  978  git remote add origin git@github.com:AmittAshok/Cafe-website.git
+  979  sudo git remote add origin git@github.com:AmittAshok/Cafe-website.git
+  980  git push -u origin master
+  981  ls
+  982  sudo git status
+  983  sudo git commit -m "files added"
+  984  git config user.name "amittashok"\n
+  985  git config user.email "amittashok@gmail.com"\n
+  986  sudo git config user.email "amittashok@gmail.com"\n
+  987  sudo git config user.name "amittashok"\n
+  988  sudo git commit -m "files added"
+  989  git push -u origin master
+  990  ls
+  991  sudo vim /etc/nginx/conf.d/cafe.conf
+  992  ls
+  993  cd ..
+  994  cd /etc/nginx
+  995  ls
+  996  cd conf.d
+  997  ls
+  998  sudo vim cafe.conf
+  999  sudo nginx -t
+ 1000  sudo systemctl reload nginx
+ 1001  sudo vim cafe.conf
+ 1002  sudo systemctl reload nginx
+ 1003  sudo snap install --classic certbot
+ 1004  sudo ln -s /snap/bin/certbot /usr/bin/certbot
+ 1005  sudo certbot --nginx
+ 1006  ping cafe.amittashok-techie.blog
+ 1007  sudo systemctl restart nginx\n
+ 1008  sudo certbot --nginx -d cafe.amittashok-techie.blog\n
+ 1009  cd /var/log
+ 1010  ls
+ 1011  cd letsencrypt
+ 1012  ls
+ 1013  sudo cd letsencrypt
+ 1014  sudo su
+ 1015  ls
+ 1016  cd /etc/nginx
+ 1017  sudo apt update && sudo apt upgrade -y\n
+ 1018  sudo apt install certbot python3-certbot-nginx -y\n
+ 1019  sudo certbot --nginx\n
+ 1020  sudo ufw allow 80\nsudo ufw allow 443\n
+ 1021  ip addr
+ 1022  sudo certbot --nginx\n
+ 1023  sudo systemctl restart nginx
+ 1024  sudo certbot --nginx\n
+ 1025  ls
+ 1026  cd conf.d
+ 1027  ls
+ 1028  sudo vim cafe.conf
+ 1029  sudo reboot
+ 1030  cd /etc/nginx
+ 1031  ls
+ 1032  sudo vim conf.d/cafe.conf
+ 1033  sudo certbot --nginx\n
+ 1034  sudo apt-get remove certbot
+ 1035  sudo python3 -m venv /opt/certbot/\nsudo /opt/certbot/bin/pip install --upgrade pip
+ 1036  sudo /opt/certbot/bin/pip install certbot certbot-nginx
+ 1037  sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
+ 1038  sudo certbot --nginx
+ 1039  sudo certbot --nginx -v
+ 1040  ls
+ 1041  sudo vim conf.d/cafe.conf
+ 1042  ip addr
+ 1043  sudo nginx -t
+ 1044  sudo systemctl reload nginx
+ 1045  ping amittashok-techie.blog
+ 1046  sudo certbot --nginx
+ 1047  ls
+ 1048  cd Python-Scripts
+ 1049  ls
+ 1050  python3 datetime_actions.py
+ 1051  ls
+ 1052  python3 docker_actions.py
+ 1053  docker run -d nginx
+ 1054  docker ps
+ 1055  python3 docker_actions.py
+ 1056  docker ps
+ 1057  docker stop 7b3
+ 1058  docker stop 4007742bd7b3 && docker rm 4007742bd7b3
+ 1059  python3 docker_actions.py
+ 1060  docker ps
+ 1061  docker ps -a
+ 1062  docker rm b4fa4e6a1fbd
+ 1063  python3 docker_actions.py
+ 1064  docker ps
+ 1065  lsof
+ 1066  lsof : 80
+ 1067  cd /var
+ 1068  sudo du -h --max-depth=1 /var | sort -hr
+ 1069  ls
+ 1070  sudo du -h /var/log | sort -hr | head -n 10
+ 1071  sudo truncate -s 0 /var/log/large_log_file
+ 1072  sudo du -h --max-depth=1 /var | sort -hr
+ 1073  ls
+ 1074  cd log
+ 1075  ls
+ 1076  ls large_log_file
+ 1077  ls -la large_log_file
+ 1078  du -h
+ 1079  sudo cd /etc/logrotate.conf
+ 1080  sudo vim /etc/logrotate.conf
+ 1081  sudo tail -f /var/log/syslog\n
+ 1082  ncdu /home
+ 1083  ncdu /Downloads
+ 1084  ncdu /home/amitt-ashok/Downloads
+ 1085  cd
+ 1086  lsblk
+ 1087  blkid
+ 1088  sudo fdsik /dev/sda
+ 1089  sudo fdisk /dev/sda
+ 1090  free -h
+ 1091  uptime 
+ 1092  uptime -p
+ 1093  uptime -s
+ 1094  sudo iotop
+ 1095  speedtest-cli
+ 1096  sudo iotop\n
+ 1097  sudo iftop\n
+ 1098  ping -c 4 www.google.com\n
+ 1099  sudo ufw status\n
+ 1100  ssh -V\n
+ 1101  sudo journalctl -b -1
+ 1102  grep "error" /var/log/syslog
+ 1103  awk '{print $1, $2, $3}' /var/log/syslog
+ 1104  less +F /var/log/syslog
+ 1105  apt list --installed\n
+ 1106  ls
+ 1107  vim main2.tf
+ 1108  ls
+ 1109  cd aws-vpc-with-ec2
+ 1110  ls
+ 1111  mv test1 /home/amitt-ashok/terraform
+ 1112  ls
+ 1113  cd ..
+ 1114  ls
+ 1115  cd test1
+ 1116  ls
+ 1117  terraform init
+ 1118  terraform plan 
+ 1119  terraform apply
+ 1120  terraform plan 
+ 1121  terraform apply
+ 1122  terraform destroy
+ 1123  ls
+ 1124  vim hosts.yaml
+ 1125  /bin/python3 /home/amitt-ashok/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /home/amitt-ashok/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 1126  cd ~/.ssh
+ 1127  ls
+ 1128  pwd
+ 1129  ls
+ 1130  ansible -i hosts.yaml -m ping 
+ 1131  ansible -i hosts.yaml -m ping all
+ 1132  ansible -i hosts.yaml all -m ping
+ 1133  pip3 install ansible\n
+ 1134  ansible --version
+ 1135  cd
+ 1136  sudo apt update\n
+ 1137  sudo apt install software-properties-common\n
+ 1138  sudo add-apt-repository ppa:ansible/ansible\n
+ 1139  sudo apt update\n
+ 1140  sudo apt install ansible\n
+ 1141  ansible --version
+ 1142  ansible -i hosts.yaml all -m ping
+ 1143  cd ~/.ssh
+ 1144  ls
+ 1145  chmod 600 id_ed25519
+ 1146  ls
+ 1147  ls -la
+ 1148  ansible -i hosts.yaml all -m ping
+ 1149  ssh -i ~/.ssh/id_ed25519 admin@3.110.46.74\n
+ 1150  /bin/python3 /home/amitt-ashok/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /home/amitt-ashok/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 1151  ls
+ 1152  cd simple-ec2-insance
+ 1153  terraform init
+ 1154  terraform validate
+ 1155  terraform plan
+ 1156  terraform init
+ 1157  terraform validate
+ 1158  terraform plan
+ 1159  terraform apply
+ 1160  terraform destroy
+ 1161  ls
+ 1162  cd ..
+ 1163  ls
+ 1164  cd simple-ec2-insance
+ 1165  mv MultiRegion\ Resource /home/amitt-ashok/TerraForm
+ 1166  ls
+ 1167  cd ..
+ 1168  ls
+ 1169  cd MultiRegion\ Resource
+ 1170  ls
+ 1171  terraform init
+ 1172  ls
+ 1173  terraform validate
+ 1174  terraform plan
+ 1175  terraform apply
+ 1176  terraform destroy
+ 1177  ls
+ 1178  cd ..
+ 1179  ls
+ 1180  mkdir Variables
+ 1181  ls
+ 1182  cd Variables
+ 1183  ls
+ 1184  pwd
+ 1185  terraform init
+ 1186  terraform validate
+ 1187  terraform apply
+ 1188  terraform destroy
+ 1189  cd ..
+ 1190  ls
+ 1191  cd VariablesWithCondition
+ 1192  ;sls
+ 1193  ls
+ 1194  cd ..
+ 1195  ls
+ 1196  source <(kubectl completion zsh)  # set up autocomplete in zsh into the current shell\necho '[[ $commands[kubectl] ]] && source <(kubectl completion zsh)' >> ~/.zshrc # add autocomplete permanently to your zsh shell\n
+ 1197  kubectl -A
+ 1198  cd
+ 1199  ls
+ 1200  cd Python-Scripts
+ 1201  ls
+ 1202  python3 backup_folder.py
+ 1203  ls
+ 1204  cd Python-Scripts
+ 1205  python3 backup_folder.py
+ 1206  ls
+ 1207  python3 backup_folder.py
+ 1208  tar -cvf photos.tar.gz /home/amitt-ashok/Pictures/Amitt\ Ashok
+ 1209  ls
+ 1210  tar -xvf photos.tar.gz
+ 1211  ls
+ 1212  ./remove_container.sh
+ 1213  l
+ 1214  ls
+ 1215  tar -xvf photos.tar.gz > photo-dir
+ 1216  ls
+ 1217  vim photo-dir
+ 1218  tar -xvf photos.tar.gz -c ./Documents
+ 1219  tar -xvf photos.tar.gz -C ./Documents
+ 1220  ls
+ 1221  cd Do
+ 1222  cd Documents/
+ 1223  ls
+ 1224  rm backups_2024-10-23.tar.gz
+ 1225  cd ..
+ 1226  ls
+ 1227  rm photo-dir
+ 1228  python3 list-dir.py
+ 1229  ls
+ 1230  pwd
+ 1231  vim list-dir.py
+ 1232  rm list-dir.py
+ 1233  rm minikube-linux-amd64
+ 1234  ls
+ 1235  ls -la photos.tar.gz
+ 1236  tar -tzvf photos.tar.gz\n
+ 1237  file photos.tar.gz
+ 1238  tar -tvf photos.tar.gz
+ 1239  python3 backup_folder.py
+ 1240  corntab -e
+ 1241  corntab
+ 1242  crontab -e
+ 1243  pwd
+ 1244  crontab -l
+ 1245  ls
+ 1246  cd Desktop
+ 1247  ls
+ 1248  cd Backups1
+ 1249  ls
+ 1250  cd
+ 1251  cd /var/log
+ 1252  ls
+ 1253  cd Python-Scripts
+ 1254  python3 docker_actions.py
+ 1255  ls
+ 1256  cd simple-ec2-insance
+ 1257  ls
+ 1258  terraform plan
+ 1259  terraform apply
+ 1260  terraform show
+ 1261  terraform refresh
+ 1262  terraform show
+ 1263  terraform plan
+ 1264  terraform apply
+ 1265  terraform destroy
+ 1266  ls
+ 1267  mkdir module
+ 1268  mvtree simple-ec2-insance module
+ 1269  mv -r simple-ec2-insance module
+ 1270  ls
+ 1271  vim main.tf
+ 1272  ls
+ 1273  terraform init
+ 1274  terraform apply
+ 1275  terraform destroy
+ 1276  terraform plan
+ 1277  terraform apply
+ 1278  aws ec2 describe-instance
+ 1279  aws ec2 describe-instances
+ 1280  aws ec2 describe-instances --filters "Name=instance-state-name,Values=running"\n
+ 1281  ls
+ 1282  rm main.tf terraform.tfstate terraform.tfstate.backup
+ 1283  ls
+ 1284  terraform destroy
+ 1285  ls
+ 1286  mkdir RemoteBackend_StateLock
+ 1287  ls
+ 1288  cd RemoteBackend_StateLock
+ 1289  ls
+ 1290  terraform init
+ 1291  terraform validate
+ 1292  terraform plan
+ 1293  terraform apply
+ 1294  terraform init
+ 1295  terraform plan
+ 1296  terraform init
+ 1297  terraform apply
+ 1298  terraform init
+ 1299  terraform init -reconfigure
+ 1300  terraform plan
+ 1301  terraform apply
+ 1302  terraform destroy
+ 1303  ls
+ 1304  cd ..
+ 1305  ls
+ 1306  cd RemoteBackend_StateLock
+ 1307  ls
+ 1308  pwd
+ 1309  mv backend.txt /home/amitt-ashok/TerraForm
+ 1310  ls
+ 1311  cd ..
+ 1312  ls
+ 1313  mv backend.txt TerraForm_Guidelines
+ 1314  ls
+ 1315  terr
+ 1316  tree
+ 1317  ls
+ 1318  cd module
+ 1319  ls
+ 1320  cd ..
+ 1321  mkdir module_runner
+ 1322  ls
+ 1323  cd module_runner
+ 1324  ls
+ 1325  terraform init
+ 1326  terraform plan
+ 1327  terraform apply
+ 1328  ls
+ 1329  cd module_runner
+ 1330  ls
+ 1331  terraform apply
+ 1332  terraform destroy
+ 1333  cd ..
+ 1334  ls
+ 1335  mkdir monitor_app_ec2
+ 1336  cd monitor_app_ec2
+ 1337  sudo cd .ssh
+ 1338  ls
+ 1339  sudo cd ~/.ssh
+ 1340  cd ~/.ssh
+ 1341  ls
+ 1342  cd Monitor-app
+ 1343  ls
+ 1344  pwd
+ 1345  cd
+ 1346  ls
+ 1347  cd TerraForm
+ 1348  ls
+ 1349  cd monitor_app_ec2
+ 1350  ls
+ 1351  terraform init
+ 1352  terraform validate
+ 1353  terraform plan
+ 1354  terraform apply
+ 1355  ls
+ 1356  python3 app.py
+ 1357  vim app.py
+ 1358  terraform destroy
+ 1359  ls
+ 1360  cd ..
+ 1361  ls
+ 1362  mkdir terraform_workspace
+ 1363  cd terraform_workspace
+ 1364  ls
+ 1365  mkdir moudle/ec2-instance
+ 1366  mkdir -p moudle/ec2-instance
+ 1367  ls
+ 1368  cd moudle
+ 1369  ls
+ 1370  cd ec2-instance
+ 1371  vim main.tf
+ 1372  ls
+ 1373  cd ..
+ 1374  ls
+ 1375  cd ..
+ 1376  ls
+ 1377  vim main.tf
+ 1378  ls
+ 1379  terraform workspace 
+ 1380  terraform workspace new dev
+ 1381  terraform workspace new stage
+ 1382  terraform workspace new prod
+ 1383  ls
+ 1384  terraform workspace select dev
+ 1385  ls
+ 1386  terraform.tfvars
+ 1387  vim terraform.tfvars
+ 1388  ls
+ 1389  terraform init
+ 1390  terraform plan
+ 1391  terraform apply
+ 1392  terraform workspace select stage
+ 1393  terraform apply
+ 1394  terraform destroy
+ 1395  terraform workspace select dev
+ 1396  terraform destroy
+ 1397  ls
+ 1398  tree
+ 1399  cd Downloads
+ 1400  ls
+ 1401  ssh -i aws-login-mumbai.pem ubuntu@13.233.116.75
+ 1402  ssh -i aws-login-mumbai.pem ubuntu@vault server -dev -dev-listen-address="0.0.0.0:8200"
+ 1403  ssh -i aws-login-mumbai.pem ubuntu@13.233.116.75
+ 1404  code
+ 1405  echo "root" | base64
+ 1406  # For AMD64 / x86_64\n[ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.26.0/kind-linux-amd64\n# For ARM64\n[ $(uname -m) = aarch64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.26.0/kind-linux-arm64\nchmod +x ./kind\nsudo mv ./kind /usr/local/bin/kind
+ 1407  ls
+ 1408  kind 
+ 1409  kind create cluster clan1
+ 1410  kind create cluster -name clan1
+ 1411  kind create cluster --name clan1
+ 1412  kubectl get nodes
+ 1413  kubectl get ns
+ 1414  vim namespace.yaml
+ 1415  ls
+ 1416  mv namespace.yaml ./Kubernetes
+ 1417  ls
+ 1418  cd Kubernetes
+ 1419  ls
+ 1420  kubectl apply -f namespace.yaml
+ 1421  kubectl get ns
+ 1422  kubectl get pods -n nginx
+ 1423  vim pod.yaml
+ 1424  kubectl apply -f pod.yaml
+ 1425  kubectl get pods -n nginx
+ 1426  echo "source <(kubectl completion zsh)" >> ~/.zshrc\n
+ 1427  source ~/.zshrc\n
+ 1428  vim clutser-config.yaml
+ 1429  ls
+ 1430  kubectl apply -f clutser-config.yaml
+ 1431  ls
+ 1432  kubectl get ns
+ 1433  kubect apply -g clutser-config.yaml
+ 1434  kubectl apply -g clutser-config.yaml
+ 1435  kubectl apply -f clutser-config.yaml
+ 1436  kind create cluster --config=cluster_config.yaml
+ 1437  \tkubectl get node
+ 1438  docker ps
+ 1439  \tkubectl get node
+ 1440  kubectl get ns
+ 1441  ls
+ 1442  kubectl apply -f namespace.yaml
+ 1443  ls
+ 1444  kubectl apply -f pod.yaml
+ 1445  kubectl get pod
+ 1446  kubectl describe pod/nginx-pod -n nginx
+ 1447  kubectl get pod
+ 1448  kubectl describe nginx-pod -n nginx
+ 1449  kubect get logs nginx-pod -n nginx
+ 1450  kubectl get logs nginx-pod -n nginx
+ 1451  kubectl apply -f pod.yaml
+ 1452  kubectl get pod -n nginx
+ 1453  kubectl describe pod/myapp -n nginx
+ 1454  ls
+ 1455  kubectl get all -n nginx
+ 1456  kubect get ns
+ 1457  kubeclt get ns
+ 1458  kubectl get ns
+ 1459  kubectl get pod
+ 1460  kubectl exec -it nginx-pod bash
+ 1461  kubectl exec -h
+ 1462  kubectl exec -it myapp -n nginx --bash
+ 1463  kubectl exec -it pod/myapp -n nginx --bash
+ 1464  kubectl exec -it pod/myapp -n nginx
+ 1465  kubectl exec -it pod/myapp -n nginx --bin/sh
+ 1466  kubectl get pod
+ 1467  kubectl exec -it pod/nginx-pod -n nginx --bin/sh
+ 1468  kubectl exec -it pod/nginx-pod -n nginx --bash
+ 1469  kubectl exec -it pod/nginx-pod -n nginx -bash
+ 1470  kubectl exec -it pod/nginx-pod -n nginx
+ 1471  kubectl delete cluster 
+ 1472  kubectl delete cluster --name myclan
+ 1473  kubectl cluster-info --context kind-kind
+ 1474  kind get clusters
+ 1475  kubectl delete cluster --name myclan1
+ 1476  kubectl delete cluster myclan1
+ 1477  kind delete cluster
+ 1478  kind delete cluster clan1
+ 1479  clan1 delete cluster clan1
+ 1480  kind delete cluster --name clan1
+ 1481  sudo kind delete cluster --name clan1
+ 1482  ps
+ 1483  top
+ 1484  kind get clusters
+ 1485  kind delte cluster --name kind
+ 1486  kind delte cluster
+ 1487  kind delete cluster
+ 1488  kind get clusters
+ 1489  kind get cluster
+ 1490  kind get clusters
+ 1491  top
+ 1492  sudo systemctl status jenkins
+ 1493  sudo systemctl status docker
+ 1494  ls
+ 1495  cd Kubernetes
+ 1496  git init
+ 1497  ls
+ 1498  git status
+ 1499  git add README.md
+ 1500  git remote add origin git@github.com:AmittAshok/Kubernetes-Manifest.git
+ 1501  git add .
+ 1502  git status
+ 1503  git commit -m "all manifest files added"
+ 1504  git push origin master
+ 1505  git logs
+ 1506  git log
+ 1507  ls
+ 1508  git status
+ 1509  git fetch
+ 1510  ls
+ 1511  git pull origin main
+ 1512  git pull origin master
+ 1513  ls
+ 1514  cd ..
+ 1515  ls
+ 1516  cd Perfect_Working_Project
+ 1517  ls
+ 1518  cd wanderlust-Project
+ 1519  ls
+ 1520  cd ..
+ 1521  ls
+ 1522  cd django-notes-app
+ 1523  ls
+ 1524  cd..
+ 1525  ls
+ 1526  cd ..
+ 1527  cd Kubernetes
+ 1528  ls
+ 1529  mkdir Nginx
+ 1530  ls
+ 1531  git status
+ 1532  ls
+ 1533  git push origin master
+ 1534  ls
+ 1535  cd Nginx
+ 1536  ls
+ 1537  vim pod.yaml
+ 1538  ls
+ 1539  cd ..
+ 1540  ls
+ 1541  rm -rf *.yaml
+ 1542  ls
+ 1543  rm -rf commands
+ 1544  ls
+ 1545  minikube start
+ 1546  kubectl get node
+ 1547  ls
+ 1548  cd Nginx
+ 1549  ls
+ 1550  kubectl apply -f namespace.yaml
+ 1551  kubectl apply -f pod.yaml
+ 1552  kubectl get pod
+ 1553  docker ps
+ 1554  kubectl get pod
+ 1555  kubectl delete pod/nginx
+ 1556  kubectl apply -f pod.yaml
+ 1557  kubectl get pod
+ 1558  kubectl get pod -n nginx
+ 1559  kubect get all -n nginx
+ 1560  kubectl get all -n nginx
+ 1561  minikube delete
+ 1562  sudo journalctl --vacuum-time=1w
+ 1563  sudo apt autoremove
+ 1564  sudo apt clean
+ 1565  iotop
+ 1566  htop
+ 1567  top
+ 1568  cd Kubernetes
+ 1569  ls
+ 1570  cd Nginx
+ 1571  ls
+ 1572  cd ..
+ 1573  cat cluster_config.yaml
+ 1574  kind cluster
+ 1575  ls
+ 1576  kind cluster create cluster_config.yaml
+ 1577  kind cluster create config=cluster_config.yaml
+ 1578  kind create cluster --config cluster_config.yaml
+ 1579  kubectl get node
+ 1580  kubectl get ns
+ 1581  docker ps
+ 1582  ls
+ 1583  cd Nginx
+ 1584  ls
+ 1585  vim namespace.yaml
+ 1586  kubect get ns
+ 1587  kubectl get ns
+ 1588  kubectl get pod -n kube-system
+ 1589  kubect apply -f namespace.yaml
+ 1590  kubectl apply -f namespace.yaml
+ 1591  kubectl run nginx -image=nginx
+ 1592  kubectl run nginx --image=nginx
+ 1593  kubectl get pod
+ 1594  kubectl delete pod/nginx
+ 1595  kubect get pod
+ 1596  kubectl get pod
+ 1597  kubectl get pod -n nginx
+ 1598  cat namespace.yaml
+ 1599  kubectl apply -f namespace.yaml
+ 1600  ls
+ 1601  vim pod
+ 1602  rm pod
+ 1603  vim pod.yaml
+ 1604  kubectl apply -f pod.yaml
+ 1605  kubectl get pod -n nginx
+ 1606  kubectl exec -it pod/nginx-cont -n nginx -- bash
+ 1607  kubectl describe pod/nginx-cont -n nginx
+ 1608  ls
+ 1609  vim deployment.yaml
+ 1610  kubetcl get pod -n nginx
+ 1611  kubectl get pod -n nginx
+ 1612  kubectl delete pod/nginx-cont -n nginx
+ 1613  kubectl apply -f deployment.yaml
+ 1614  kubectl get pod -n nginx
+ 1615  vim deployment.yaml
+ 1616  kubectl get deployment
+ 1617  kubectl delete deployment/nginx-deployment
+ 1618  kubectl apply -f deployment.yaml
+ 1619  vim deployment.yaml
+ 1620  kubectl apply -f deployment.yaml
+ 1621  kubectl get pod -n nginx
+ 1622  vim deployment.yaml
+ 1623  kubectl delete deployment/nginx-deployment
+ 1624  kubectl get deployment -n nginx
+ 1625  kubectl delete deployment/nginx-deployment
+ 1626  kubectl delete deployment/nginx-deployment -n nginx
+ 1627  ls
+ 1628  vim deployment.yaml
+ 1629  kubectl apply -f deployment.yaml
+ 1630  vim deployment.yaml
+ 1631  kubectl apply -f deployment.yaml
+ 1632  kubectl get pod -n nginx
+ 1633  kubectl scale deployment/nginx-deployment -n nginx -replicas=5
+ 1634  kubectl scale deployment/nginx-deployment -n nginx --replicas=5
+ 1635  kubectl get pod -n nginx
+ 1636  kubectl scale deployment/nginx-deployment -n nginx -replicas=1
+ 1637  kubectl scale deployment/nginx-deployment -n nginx --replicas=1
+ 1638  kubectl get pod -n nginx
+ 1639  kubectl scale deployment/nginx-deployment -n nginx --replicas=10
+ 1640  kubectl get pod -n nginx
+ 1641  kubectl scale deployment/nginx-deployment -n nginx --replicas=2
+ 1642  kubectl get pod -n nginx
+ 1643  ls
+ 1644  kubectl scale deployment/nginx-deployment -n nginx --replicas=1
+ 1645  kubectl get pod -n nginx
+ 1646  kubectl scale deployment/nginx-deployment -n nginx --replicas=5
+ 1647  kubectl get pod -n nginx
+ 1648  kubectl get pod -n nginx -o wide
+ 1649  kubectl get pod -n nginx
+ 1650  kubectl set image deployment/nginx-deployment -n nginx  
+ 1651  cat deployment.yaml
+ 1652  kubectl set image deployment/nginx-deployment -n nginx  nginx-cont=1.27.3
+ 1653  kubectl get pod -n nginx
+ 1654  kubectl set image deployment/nginx-deployment -n nginx  nginx-cont=nginx:1.27.3
+ 1655  kubectl get pod -n nginx
+ 1656  history
+ 1657  ls
+ 1658  kubectl get deployment -n nginx
+ 1659  kubectl delete deployment/nginx-deployment -n nginx
+ 1660  cp deployment.yaml replicaset.yaml
+ 1661  vim replicaset.yaml
+ 1662  kubectl apply -f replicaset.yaml
+ 1663  vim replicaset.yaml
+ 1664  kubectl apply -f replicaset.yaml
+ 1665  vim replicaset.yaml
+ 1666  ls
+ 1667  cp replicaset.yaml DaemonSet.yaml
+ 1668  ls
+ 1669  vim deployment.yaml
+ 1670  kuebetcl get pod
+ 1671  kuebetcl get pod -n nginx
+ 1672  kuebctl get pod -n nginx
+ 1673  kubetcl get pod -n nginx
+ 1674  kubectl get pod -n nginx
+ 1675  kubectl get replicaset -n nginx
+ 1676  kubectl delete replicaset/nginx-replica-sets -n nginx
+ 1677  kubectl apply -f daemonSet.yaml
+ 1678  kubectl get pod -n nginx
+ 1679  kubectl get pod -n nginx -o wide
+ 1680  vim daemonSet.yaml
+ 1681  kubectl get pod -n nginx -o wide
+ 1682  kubectl delete replicaset/nginx-replica-sets -n nginx
+ 1683  kubectl apply -f daemonSet.yaml
+ 1684  vim daemonSet.yaml
+ 1685  kubectl apply -f daemonSet.yaml
+ 1686  vim daemonSet.yaml
+ 1687  kubectl apply -f daemonSet.yaml
+ 1688  kubectl get pod -n nginx -o wide
+ 1689  kubectl get daemonset -n nginx
+ 1690  kubectl delete daemonset/nginx-daemonset -n nginx
+ 1691  cd /home/amitt-ashok/Downloads
+ 1692  ls
+ 1693  mv Kubernetes_Series.pdf Kubernetes-workload.pdf /home/amitt-ashok/Kubernetes
+ 1694  cd /home/amitt-ashok/Kubernetes
+ 1695  ls
+ 1696  vim job.yaml
+ 1697  ls
+ 1698  rm job.yaml
+ 1699  cd Nginx
+ 1700  ls
+ 1701  vim job.yaml
+ 1702  ls
+ 1703  kubectl get all -n nginx
+ 1704  kubectl apply -f job.yaml
+ 1705  vim job.yaml
+ 1706  kubectl apply -f job.yaml
+ 1707  kubectl get all -n nginx
+ 1708  vim job.yaml
+ 1709  kubectl get job
+ 1710  kubectl delete job/myjob
+ 1711  kubectl apply -f job.yaml
+ 1712  kubectl get job -n nginx
+ 1713  kubectl get pod -n nginx
+ 1714  kubectl get logs pod/print-task-lr7pj -n nginx
+ 1715  kubectl get logs print-task-lr7pj -n nginx
+ 1716  kubectl get log print-task-lr7pj -n nginx
+ 1717  kubectl log print-task-lr7pj -n nginx
+ 1718  kubectl log pod/print-task-lr7pj -n nginx
+ 1719  kubectl logs pod/print-task-lr7pj -n nginx
+ 1720  kubectl get job -n nginx
+ 1721  kubectl delete job/print-task -n nginx
+ 1722  kubectl apply -f job.yaml
+ 1723  kubectl get job -n nginx
+ 1724  kubectl get pod -n nginx
+ 1725  kubectl logs print-task-zp64b
+ 1726  kubectl logs print-task-zp64b -n nginx
+ 1727  kubectl get pod -n nginx
+ 1728  apt list --installed\n
+ 1729  sudp usermod -aG sudo amitt-ashok
+ 1730  sudo usermod -aG sudo amitt-ashok
+ 1731  groups amitt-ashok
+ 1732  ls
+ 1733  find /home/amitt-ashok/Downloads -type f -size -5M
+ 1734  ls
+ 1735  find -type f -size 5M
+ 1736  find -type f -size 2kb
+ 1737  find -type f -size 2k
+ 1738  ls -ltr
+ 1739  ls
+ 1740  ls -lhtr
+ 1741  find -type f -size 400
+ 1742  ls
+ 1743  kubectl get job -n nginx
+ 1744  kubectl delte job/print-task -n nginx
+ 1745  kubectl delete job/print-task -n nginx
+ 1746  kubectl get all -n nginx
+ 1747  ls
+ 1748  kubectl -f cronJob.yaml
+ 1749  kubectl apply -f cronJob.yaml
+ 1750  kubectl get pod -n nginx
+ 1751  kubectl get pod
+ 1752  kubectl get cronjob -n nginx
+ 1753  kubectl get pod -n nginx
+ 1754  kubectl logs pod/minute-backup-28924832-6zvmg
+ 1755  kubectl logs pod/minute-backup-28924832-6zvmg -n nginx
+ 1756  kubectl get pod -n nginx
+ 1757  kubectl exec -it minute-backup-28924833-tc7d5 -n nginx - bash
+ 1758  kubectl exec -it pod/minute-backup-28924833-tc7d5 -n nginx - bash
+ 1759  history | grep exec -it
+ 1760  history
+ 1761  history | grep "exec -it" 
+ 1762  kubectl exec -it pod/minute-backup-28924833-tc7d5 -n nginx -bash
+ 1763  kubectl exec -it pod/minute-backup-28924833-tc7d5 -n nginx --bash
+ 1764  kubectl exec -it pod/minute-backup-28924833-tc7d5 -n nginx -- bash
+ 1765  kubectl get pod -n nginx
+ 1766  kubectl get cronjob -n nginx
+ 1767  kubectl delete cronjob/minute-backup -n nginx
+ 1768  ls
+ 1769  kubectl get all -n nginx
+ 1770  vim ~/.zshrc
+ 1771  alias kga="kubectl get all -n nginx"
+ 1772  kga
+ 1773  history
+ 1774  ls
+ 1775  kubectl apply -f persistentVolume.yaml
+ 1776  kubectl get pv -n nginx
+ 1777  ls
+ 1778  kga
+ 1779  kubectl get ns
+ 1780  kubectl apply -f persistenVolumeClaim.yaml
+ 1781  kubectl get pv -n nginx
+ 1782  kubectl get pod -n nginx
+ 1783  kubectl get pod
+ 1784  kubectl get pv
+ 1785  kubectl get pvc
+ 1786  history | grep "run nginx"
+ 1787  kubectl run nginx --image=nginx
+ 1788  kubectl get pod
+ 1789  kubectl exec -it pod/nginx -- bash
+ 1790  ls
+ 1791  kubectl get pv\n
+ 1792  kubectl describe pv/local-pv
+ 1793  kubectl get nodes
+ 1794  ssh myclan-worker
+ 1795  docker ps
+ 1796  docker exec -it ec728c556547 bash
+ 1797  kga
+ 1798  kubect get pod
+ 1799  kubectl get pod
+ 1800  kubectl delete pod/nginx
+ 1801  kga
+ 1802  ls
+ 1803  kubectl get pv
+ 1804  kubectl delete pv/local-pv
+ 1805  kubectl delete pvc
+ 1806  kubectl get pvc
+ 1807  kubectl delete pvc/local-pvc
+ 1808  kubectl delete pv/local-pv
+ 1809  kubectl get pv
+ 1810  ls
+ 1811  kga
+ 1812  kubectl get pod
+ 1813  ls
+ 1814  kubectl apply -f service.yaml
+ 1815  kga
+ 1816  kubectl apply -f deployment.yaml
+ 1817  kga
+ 1818  kubectl delete deployment/deployment.apps/nginx-daemonset -n nginx
+ 1819  kubectl delete deployment/deployment.apps/nginx-daemonset -n ngin
+ 1820  kubectl get deployment
+ 1821  kubectl get deployment -n nginx
+ 1822  kubectl delete deploymet/nginx-deployment -n nginx
+ 1823  kubectl delete deployment/nginx-deployment -n nginx
+ 1824  kubectl delete deployment/nginx-daemonset -n nginx
+ 1825  kubectl delete deploymet/nginx-deployment -n ngin
+ 1826  kgs
+ 1827  kga
+ 1828  kubectl apply -f deployment.yaml
+ 1829  kga
+ 1830  kubectl get deployment -n nginx
+ 1831  kubectl delete deploymet/nginx-deployment -n nginx
+ 1832  kubectl delete deployment/nginx-deployment -n nginx
+ 1833  kubectl apply -f deployment.yaml
+ 1834  kga
+ 1835  kubect get pod -n nginx
+ 1836  kubectl get pod -n nginx
+ 1837  kubectl logs nginx-deployment-7fdc6d58c8-28ph5
+ 1838  kubectl logs nginx-deployment-7fdc6d58c8-28ph5 -n nginx
+ 1839  kubectl get pod -n nginx
+ 1840  kubectl describe nginx-deployment-7fdc6d58c8-28ph5 -n nginx
+ 1841  kubect get pod -n nginx
+ 1842  kubectl get pod -n nginx
+ 1843  kubectl describe pod/nginx-deployment-7fdc6d58c8-28ph5 -n nginx
+ 1844  ls
+ 1845  kubectl apply -f persistentVolume.yaml -n nginx
+ 1846  kubectl apply -f persistentVolume.yaml persistenVolumeClaim.yaml
+ 1847  kubectl apply -f  persistenVolumeClaim.yaml -n nginx
+ 1848  kubectl get pod -n nginx
+ 1849  kgs
+ 1850  kga
+ 1851  kubectl port-forward services/nginx-service -n nginx 80:80 --address=0.0.0.0
+ 1852  sudo kubectl port-forward services/nginx-service -n nginx 80:80 --address=0.0.0.0
+ 1853  sudo systemctl status nginx
+ 1854  sudo systemctl stop nginx
+ 1855  sudo kubectl port-forward services/nginx-service -n nginx 80:80 --address=0.0.0.0
+ 1856  sudo kubectl port-forward services/nginx-service -n nginx 81:80 --address=0.0.0.0
+ 1857  sudo kubectl port-forward services/nginx-service -n nginx 81:80
+ 1858  kubectl cluster-info\n
+ 1859  sudo kubectl port-forward services/nginx-service -n nginx 81:80 --address=0.0.0.0
+ 1860  kubectl get svc -n nginx
+ 1861  kubectl port-forward services/nginx-service -n nginx 81:80 --address=0.0.0.0
+ 1862  kubectl port-forward services/nginx-service -n nginx 8000:80 --address=0.0.0.0
+ 1863  kga
+ 1864  kubectl get replicaset
+ 1865  kubectl get replicaset -n nginx
+ 1866  kubectl delete replicaset/nginx-deployment-7fdc6d58c8 -n nginx
+ 1867  kga
+ 1868  kubectl port-forward services/nginx-service -n nginx 83:80 --address=0.0.0.0
+ 1869  kubectl port-forward services/nginx-service -n nginx 50:80 --address=0.0.0.0
+ 1870  kubectl port-forward services/nginx-service -n nginx 5000:80 --address=0.0.0.0
+ 1871  ls
+ 1872  kubectl get pod -n nginx
+ 1873  kubectl describe pod/nginx-deployment-7fdc6d58c8-4qjp5 -n nginx
+ 1874  vim service.yaml
+ 1875  kind delete cluster
+ 1876  kind delete cluster --name myclan1
+ 1877  kubectl get pod -n nginx
+ 1878  kind get clusters\n
+ 1879  kind delete cluster --name myclan
+ 1880  history
