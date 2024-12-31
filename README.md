@@ -89,9 +89,9 @@ kind create cluster --config cluster_config.yaml
 ```
 Step 5 :Delete the Cluster
 Once you're done, you can delete the cluster with:
-
 ```bash
 kind delete cluster --name my-cluster
+```
 This will remove the my-cluster from your system.
 
 
