@@ -9,7 +9,7 @@ This repository is used to learn about Kubernetes and how exactly manifest files
 - [Project Overview](#Project-overview)
 - [Technologies Used](#Technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Read More](#Read_More)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -94,4 +94,9 @@ kind delete cluster --name my-cluster
 ```
 This will remove the my-cluster from your system.
 
+# Read_More
+You can visit some of my article for understaing purpose.
 
+- [Basic Kubernetes](Kubernetes_series.pdf)
+- [Kubernetes workload](Kubernetes-workload.pdf)
+- 
