@@ -48,7 +48,7 @@ Monitor the resources using:
 kubectl get all
 ```
 
-#Technologies-used
+# Technologies-used
 
 Setting Up a Local Kubernetes Cluster with kind
 Follow these steps to create a local Kubernetes cluster using kind (Kubernetes IN Docker). This guide assumes you have Docker installed on your machine.
@@ -56,6 +56,7 @@ Follow these steps to create a local Kubernetes cluster using kind (Kubernetes I
 Prerequisites
 Step 1 : Docker must be installed and running on your local machine.
 kind must be installed. If it's not already installed, follow the installation steps below.
+
 # For Linux
 ```bash
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
