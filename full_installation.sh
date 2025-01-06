@@ -1,6 +1,6 @@
 # Kind cluster mainfest
 
-YAML_FILE ="/home/amitt-ashok/Kubernetes/cluster_config.yaml"
+YAML_FILE ="cluster_config.yaml"
 
 #update the system
 sudo apt-get upadte
@@ -9,7 +9,7 @@ sudo apt-get upadte
 sudo apt install docker.io 
 
 #add permission and refresh docker 
-sudo usermod -aG docker $USER && newgrp docker 
+sudo usermod -aG docker $USER
 
 #Now check permission
 docker ps
