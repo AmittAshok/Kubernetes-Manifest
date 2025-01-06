@@ -3,6 +3,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: local-pvc
+  namespace: nginx
 spec:
   resources:
     requests:

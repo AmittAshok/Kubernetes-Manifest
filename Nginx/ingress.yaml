@@ -1,0 +1,31 @@
+# First install ingress controller with kubectl apply -f https://kind.sigs.k8s.io/examples/ingress/deploy-ingress-nginx.yaml
+# command
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-nginx-app #name of ingress
+  namespace: nginx
+  annotations:
+    nginx.ingress.kuberntes.io/rewrite-targer: /
+  labels:
+    name: ingress   # label for ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - pathType: Prefix   # First service which is nginx
+        path: "/"
+        backend:
+          service:
+            name: nginx-service
+            port: 
+              number: 80
+      - pathType: Prefix   # Second service my app
+        path: "/"
+        backend:
+          service:
+            name: myapp-service
+            port: 
+              number: 8080
+        
