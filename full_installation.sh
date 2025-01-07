@@ -1,32 +1,34 @@
 # Kind cluster mainfest
 
-YAML_FILE ="cluster_config.yaml"
+#!/bin/bash
 
-#update the system
-sudo apt-get upadte
+YAML_FILE="cluster_config.yaml"
 
-#Install docker 
-sudo apt install docker.io 
+# Update the system
+sudo apt-get update -y
 
-#add permission and refresh docker 
+# Install Docker
+sudo apt-get install -y docker.io
+
+# Add the current user to the docker group and refresh the session
 sudo usermod -aG docker $USER
 
-#Now check permission
-docker ps
+# Restart the docker service
+sudo systemctl restart docker
 
-# install kubectl 
+# Install kubectl
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 kubectl version --client
 
-# install kind cluster
+# Install kind
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
 chmod +x ./kind
 sudo mv ./kind /usr/local/bin/kind
 
-# install kind cluster
+# Create a kind cluster using the provided YAML file
 kind create cluster --config $YAML_FILE
 
-#check install of kind cluster
+# Check the installation of the kind cluster
 kubectl get nodes
