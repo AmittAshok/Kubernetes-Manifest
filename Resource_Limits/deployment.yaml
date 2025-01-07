@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: slam-app
+spec:
+  selector:
+    matchLabels:
+      app: slam-app
+  template:
+    metadata:
+      labels:
+        app: slam-app
+    spec:
+      containers:
+      - name: slambook-app
+        image: amittashok/slambook-cicd
+        resources:    
+          limits:  #defind limit of resource from server 
+            memory: "128Mi"
+            cpu: "500m"
+          requests:  # request from define limits
+            memory: "56Mi"
+            cpu: "100m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          
+        startupProbe:
+          httpGet:
+            path: /start
+            port: 8080
+
+        ports:
+        - containerPort: 3000
+          targetPort: 3000
+
