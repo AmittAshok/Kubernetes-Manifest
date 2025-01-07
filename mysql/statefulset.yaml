@@ -19,12 +19,11 @@ spec:
         image: mysql:latest
         ports:
         - containerPort: 3306
-          env:
-          - name:  MYSQL_ROOT_PASSWORD
-            value: root
-
-          - name: MYSQL_DATABASE
-            value: devops  
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: root
+        - name: MYSQL_DATABASE
+          value: devops  
         volumeMounts:
         - name: mysql-data
           mountPath: /var/lib/mysql
@@ -32,7 +31,8 @@ spec:
   - metadata:
       name: mysql-data
     spec:
-      accessModes: [ "ReadWriteOnce" ]
+      accessModes:
+      - ReadWriteOnce
       resources:
         requests:
           storage: 1Gi
